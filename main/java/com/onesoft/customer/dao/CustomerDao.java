@@ -16,7 +16,7 @@ public class CustomerDao {
 	public String setData(List<Customer> c) {
 
 		cr.saveAll(c);
-		return "saved";
+		return "saved sucessfully";
 
 	}
 

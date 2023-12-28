@@ -45,13 +45,13 @@ static Logger log = Logger.getLogger(CustomerController.class);
 	}
 	@GetMapping(value="/data")
 	public String getValue(@RequestParam String name, @RequestParam int password) {
-		if(name.equals("viji")&& password==1995)
+		if(name.equals("moni")&& password==1995)
 		{
-			return "Success";
+			return "open Successfully";
 		}
 		else
 		{
-			return "decliend";
+			return "Decliend";
 		}
 	}
 @Value("${myname}")
